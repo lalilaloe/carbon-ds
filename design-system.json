@@ -1,0 +1,16 @@
+{
+    "name": "carbon-ds",
+    "displayName": "Carbon components",
+    "homepage": "https://www.pingendo.com/",
+    "description": "Carbon components extracted from carbon-design-system/carbon",
+    "dependencies": [
+        "node_modules/carbon-components/css/carbon-components.min.css",
+        "node_modules/carbon-components/scripts/carbon-components.min.js"
+    ],
+    "components": [
+        "./components/*.ds.js"
+    ],
+    "tokens": [
+        "./tokens/*.json"
+    ]
+}

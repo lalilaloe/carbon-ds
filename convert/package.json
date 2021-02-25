@@ -1,0 +1,31 @@
+{
+  "name": "convert",
+  "version": "0.0.0",
+  "description": "",
+  "main": "convert.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "node convert.js",
+    "lint": "cd ../components && eslint --no-eslintrc --fix --parser-options=sourceType:module --parser-options=ecmaVersion:2015 --format stylish .",
+    "prettier": "cd ../components && prettier --write ."
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "eslint": "^7.5.0",
+    "foxr": "^0.10.1",
+    "fs": "0.0.1-security",
+    "he": "^1.2.0",
+    "image-size": "^0.8.3",
+    "jsonfile": "^6.0.1",
+    "node-html-parser": "^1.2.20",
+    "prettier": "^2.0.5",
+    "puppeteer": "^7.1.0",
+    "serve-static": "^1.14.1",
+    "slash": "^3.0.0"
+  }
+}

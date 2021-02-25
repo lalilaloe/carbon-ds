@@ -1,0 +1,19 @@
+{
+  "name": "carbon-ds",
+  "version": "1.1.1",
+  "description": "Carbon is IBM’s open source design system for products and digital experiences.",
+  "author": "lalilaloe",
+  "bugs": {
+    "url": "https://github.com/lalilaloe/carbon-ds/issues"
+  },
+  "homepage": "https://github.com/lalilaloe/carbon-ds#readme",
+  "files": [
+    "components/",
+    "tokens/",
+    "design-system.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "carbon-components": "^10.28.0"
+  }
+}
